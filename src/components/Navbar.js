@@ -73,7 +73,7 @@ const Navbar = () => {
         <div className="flex justify-end pr-8 pt-8">
           <TfiClose
             onClick={handleNavPress}
-            className="rounded p-1 hover:bg-black/5"
+            className="rounded p-1 hover:bg-black/5 hover:cursor-pointer"
             size={28}
           />
         </div>
